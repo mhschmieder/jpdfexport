@@ -43,8 +43,8 @@ import javax.imageio.ImageIO;
 
 import org.apache.commons.math3.util.FastMath;
 
+import com.mhschmieder.commonstoolkit.branding.BrandingUtilities;
 import com.mhschmieder.commonstoolkit.branding.ProductBranding;
-import com.mhschmieder.commonstoolkit.io.FileUtilities;
 import com.pdfjet.Align;
 import com.pdfjet.Cell;
 import com.pdfjet.Color;
@@ -750,7 +750,7 @@ public final class PdfTools {
                                     final Locale locale ) {
         // Write the name/version of this program and the current user locale as
         // the footer to the first page.
-        final String savedFrom = FileUtilities.getSavedFrom( productBranding, locale );
+        final String savedFrom = BrandingUtilities.getSavedFrom( productBranding, locale );
         addParagraph( paragraphs, Align.CENTER, fonts._footerFont, savedFrom );
 
         // For legal reasons, we also add a privacy clause.
