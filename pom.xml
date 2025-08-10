@@ -10,7 +10,7 @@
 	<version>0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>OfficeToolkit</name>
+	<name>pdftoolkit</name>
 	<url>https://github.com/mhschmieder/pdftoolkit</url>
 	<description>Wrapper for working with PDF exporters (currently PDFjet)</description>
 
