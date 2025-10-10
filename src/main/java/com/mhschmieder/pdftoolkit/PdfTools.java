@@ -30,19 +30,6 @@
  */
 package com.mhschmieder.pdftoolkit;
 
-import java.awt.image.BufferedImage;
-import java.io.ByteArrayInputStream;
-import java.io.ByteArrayOutputStream;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Locale;
-
-import javax.imageio.ImageIO;
-
-import org.apache.commons.math3.util.FastMath;
-
 import com.mhschmieder.commonstoolkit.branding.BrandingUtilities;
 import com.mhschmieder.commonstoolkit.branding.ProductBranding;
 import com.pdfjet.Align;
@@ -62,6 +49,17 @@ import com.pdfjet.Point;
 import com.pdfjet.Table;
 import com.pdfjet.TextFrame;
 import com.pdfjet.TextLine;
+import org.apache.commons.math3.util.FastMath;
+
+import javax.imageio.ImageIO;
+import java.awt.image.BufferedImage;
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Locale;
 
 /**
  * This class has a set of tools that are useful for minimizing cut/paste work
