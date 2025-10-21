@@ -1,5 +1,6 @@
-# pdftoolkit
-Wrapper for PDF export tools to take care of common report-based formatting and page flow
+# jpdfexport
+
+Wrapper for PDF export tools to take care of common report-based formatting and page flow. Not an exporter per se; it is meant to work in conjunction with PDF Export libraries, in particular (at this time) PDFJet.
 
 NOTE: This is not yet a functional library in terms of being vetted in production code, due to unforeseen circumstances regarding the PDFjet dependency, which went on hiatus for a few years but now is back in some unknown form.
 
