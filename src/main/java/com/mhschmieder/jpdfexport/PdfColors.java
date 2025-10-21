@@ -24,11 +24,11 @@
  * This file is part of the PdfeToolkit Library
  *
  * You should have received a copy of the MIT License along with the
- * PdfToolkit Library. If not, see <https://opensource.org/licenses/MIT>.
+ * JPdfExport Library. If not, see <https://opensource.org/licenses/MIT>.
  *
- * Project: https://github.com/mhschmieder/pdftoolkit
+ * Project: https://github.com/mhschmieder/jpdfexport
  */
-package com.mhschmieder.pdftoolkit;
+package com.mhschmieder.jpdfexport;
 
 import com.pdfjet.Color;
 

@@ -21,17 +21,17 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  *
- * This file is part of the PdfToolkit Library
+ * This file is part of the JPdfExport Library
  *
  * You should have received a copy of the MIT License along with the
- * PdfToolkit Library. If not, see <https://opensource.org/licenses/MIT>.
+ * JPdfExport Library. If not, see <https://opensource.org/licenses/MIT>.
  *
- * Project: https://github.com/mhschmieder/pdftoolkit
+ * Project: https://github.com/mhschmieder/jpdfexport
  */
-package com.mhschmieder.pdftoolkit;
+package com.mhschmieder.jpdfexport;
 
-import com.mhschmieder.commonstoolkit.branding.BrandingUtilities;
-import com.mhschmieder.commonstoolkit.branding.ProductBranding;
+import com.mhschmieder.jcommons.branding.BrandingUtilities;
+import com.mhschmieder.jcommons.branding.ProductBranding;
 import com.pdfjet.Align;
 import com.pdfjet.Cell;
 import com.pdfjet.Color;

@@ -21,12 +21,12 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  *
- * This file is part of the PdfToolkit Library
+ * This file is part of the JPdfExport Library
  *
  * You should have received a copy of the MIT License along with the
- * PdfToolkit Library. If not, see <https://opensource.org/licenses/MIT>.
+ * JPdfExport Library. If not, see <https://opensource.org/licenses/MIT>.
  *
- * Project: https://github.com/mhschmieder/pdftoolkit
+ * Project: https://github.com/mhschmieder/jpdfexport
  */
 /**
  * This package contains utilities and helper methods related to producing reports
@@ -36,4 +36,4 @@
  *
  * @author Mark Schmieder
  */
-package com.mhschmieder.pdftoolkit;
+package com.mhschmieder.jpdfexport;
