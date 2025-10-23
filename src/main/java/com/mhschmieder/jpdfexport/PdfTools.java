@@ -69,9 +69,9 @@ import java.util.Locale;
  * <p>
  * NOTE: This code was originally based off of a commercial license for the 5.9
  * release, which contains a TextColumn class for aligning and spacing multiple
- * Paragraphs on a Page. As this OfficeToolkit is now an open source library, it
- * must instead be based on the free 5.75 release of pdfJet, so we now use the
- * TextFrame class. THE OUTPUT HAS NOT YET BEEN TESTED, as my GUI app is not
+ * Paragraphs on a Page. As this office toolkit is now an open source library,
+ * it must instead be based on the free 5.75 release of pdfJet, so we now use
+ * the TextFrame class. THE OUTPUT HAS NOT YET BEEN TESTED, as my GUI app is not
  * currently in a fully buildable state.
  * <p>
  * NOTE: The recent v7.06 evaluation version of PDFjet now includes TextColumn
