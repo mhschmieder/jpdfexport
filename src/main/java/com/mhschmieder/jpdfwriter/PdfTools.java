@@ -1,7 +1,7 @@
-/**
+/*
  * MIT License
  *
- * Copyright (c) 2020, 2023 Mark Schmieder
+ * Copyright (c) 2020, 2025, Mark Schmieder. All rights reserved.
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -21,14 +21,14 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  *
- * This file is part of the JPdfExport Library
+ * This file is part of the jpdfwriter Library
  *
- * You should have received a copy of the MIT License along with the
- * JPdfExport Library. If not, see <https://opensource.org/licenses/MIT>.
+ * You should have received a copy of the MIT License along with the jpdfwriter
+ * Library. If not, see <https://opensource.org/licenses/MIT>.
  *
- * Project: https://github.com/mhschmieder/jpdfexport
+ * Project: https://github.com/mhschmieder/jpdfwriter
  */
-package com.mhschmieder.jpdfexport;
+package com.mhschmieder.jpdfwriter;
 
 import com.mhschmieder.jcommons.branding.BrandingUtilities;
 import com.mhschmieder.jcommons.branding.ProductBranding;
@@ -664,8 +664,7 @@ public final class PdfTools {
 
             final byte[] imageByteArray = byteArrayOutputStream.toByteArray();
             try ( final InputStream bais = new ByteArrayInputStream( imageByteArray ) ) {
-                final Image image = new Image( document, bais, ImageType.PNG );
-                return image;
+                return new Image( document, bais, ImageType.PNG );
             }
             catch ( final Exception e ) {
                 e.printStackTrace();
@@ -1202,5 +1201,4 @@ public final class PdfTools {
 
         return metadataAdjustmentY;
     }
-
 }
