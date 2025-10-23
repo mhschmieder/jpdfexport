@@ -68,11 +68,11 @@ import java.util.Locale;
  * TODO: Split this class in two, for Project Report specific helper methods?
  * <p>
  * NOTE: This code was originally based off of a commercial license for the 5.9
- * release, which contains a TextColumn class for aligning and spacing multiple
- * Paragraphs on a Page. As this office toolkit is now an open source library,
- * it must instead be based on the free 5.75 release of pdfJet, so we now use
- * the TextFrame class. THE OUTPUT HAS NOT YET BEEN TESTED, as my GUI app is not
- * currently in a fully buildable state.
+ *  release, which contains a TextColumn class for aligning and spacing multiple
+ *  Paragraphs on a Page. As this office toolkit is now an open source library,
+ *  it must instead be based on the free 5.75 release of pdfJet, so we now use
+ *  the TextFrame class. THE OUTPUT HAS NOT YET BEEN TESTED, as my GUI app is
+ *  not currently in a fully buildable state.
  * <p>
  * NOTE: The recent v7.06 evaluation version of PDFjet now includes TextColumn
  *  so I have rewritten that code again using the API docs but haven't had an
@@ -83,10 +83,10 @@ import java.util.Locale;
  *  the evaluation copy may still be v5.75, which doesn't include TextColumn.
  * <p>
  * TODO: Consider switching to Apache PdfBox in conjunction with an add-on
- * library such as easytable, ph-pdf-layout, pdfbox-layout, or PdfLayoutManager,
- * as pdfJet appears to have been abandoned at the start of the COVID pandemic
- * in early 2020 and as PdfBox and its add-on high-level layout libraries are
- * growing quickly in functionality, almost matching or surpassing iText.
+ *  library such as easytable, ph-pdf-layout, pdfbox-layout, or PdfLayoutManager,
+ *  as pdfJet appears to have been abandoned at the start of the COVID pandemic
+ *  in early 2020 and as PdfBox and its add-on high-level layout libraries are
+ *  growing quickly in functionality, almost matching or surpassing iText.
  */
 public final class PdfTools {
 
