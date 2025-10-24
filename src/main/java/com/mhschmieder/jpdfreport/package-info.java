@@ -21,36 +21,19 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  *
- * This file is part of the jpdfexport Library
+ * This file is part of the jpdfreport Library.
  *
- * You should have received a copy of the MIT License along with the jpdfexport
+ * You should have received a copy of the MIT License along with the jpdfreport
  * Library. If not, see <https://opensource.org/licenses/MIT>.
  *
- * Project: https://github.com/mhschmieder/jpdfexport
+ * Project: https://github.com/mhschmieder/jpdfreport
  */
-package com.mhschmieder.jpdfexport;
-
 /**
- * This is an encapsulation of exceptions thrown by this library, for purposes
- * of clearly identifying library calls as the underlying cause.
+ * This package contains utilities and helper methods related to producing
+ * reports in the format of PDF graphics.
+ *
+ * @version 1.0
+ *
+ * @author Mark Schmieder
  */
-public class PdfException extends RuntimeException {
-    /**
-     *
-     */
-    private static final long serialVersionUID = 2649797198528955199L;
-
-    /**
-     * Fully qualified constructor for a library encapsulation of exceptions
-     * related to PDF handling. Generally these will be recaptures of Core Java
-     * exceptions, wrapped in a library class to better mark the cause or fault.
-     *
-     * @param message
-     *            The full pre-parsed string to include with the exception
-     *
-     * @since 1.0
-     */
-    public PdfException( final String message ) {
-        super( message );
-    }
-}
+package com.mhschmieder.jpdfreport;

@@ -6,13 +6,13 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.mhschmieder</groupId>
-	<artifactId>jpdfexport</artifactId>
+	<artifactId>jpdfreport</artifactId>
 	<version>0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>jpdfexport</name>
-	<url>https://github.com/mhschmieder/jpdfexport</url>
-	<description>Wrapper for working with PDF writers (currently PDFjet)</description>
+	<name>jpdfreport</name>
+	<url>https://github.com/mhschmieder/jpdfreport</url>
+	<description>Wrapper for working with PDF writers (currently PDFjet) to produce PDF reports.</description>
 
 	<licenses>
 		<license>
@@ -23,9 +23,9 @@
 	</licenses>
 
 	<scm>
-		<url>https://github.com/mhschmieder/jpdfexport</url>
-		<connection>scm:git:git://github.com/mhschmieder/jpdfexport.git</connection>
-		<developerConnection>scm:git:git@github.com:mhschmieder/jpdfexport.git</developerConnection>
+		<url>https://github.com/mhschmieder/jpdfreport</url>
+		<connection>scm:git:git://github.com/mhschmieder/jpdfreport.git</connection>
+		<developerConnection>scm:git:git@github.com:mhschmieder/jpdfreport.git</developerConnection>
 	</scm>
 
 	<developers>

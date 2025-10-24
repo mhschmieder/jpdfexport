@@ -21,14 +21,14 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  *
- * This file is part of the jpdfexport Library.
+ * This file is part of the jpdfreport Library.
  *
- * You should have received a copy of the MIT License along with the jpdfexport
+ * You should have received a copy of the MIT License along with the jpdfreport
  * Library. If not, see <https://opensource.org/licenses/MIT>.
  *
- * Project: https://github.com/mhschmieder/jpdfexport
+ * Project: https://github.com/mhschmieder/jpdfreport
  */
-package com.mhschmieder.jpdfexport;
+package com.mhschmieder.jpdfreport;
 
 import com.pdfjet.Color;
 
