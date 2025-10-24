@@ -1,4 +1,4 @@
-# jpdfexport
+# jpdfreport
 
 Wrapper for PDF output writing tools to take care of common report-based formatting and page flow. Not an exporter per se; it is meant to work in conjunction with PDF generator libraries, in particular (at this time) PDFJet.
 
