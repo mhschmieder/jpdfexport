@@ -6,12 +6,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.mhschmieder</groupId>
-	<artifactId>jpdfwriter</artifactId>
+	<artifactId>jpdfexport</artifactId>
 	<version>0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>jpdfwriter</name>
-	<url>https://github.com/mhschmieder/jpdfwriter</url>
+	<name>jpdfexport</name>
+	<url>https://github.com/mhschmieder/jpdfexport</url>
 	<description>Wrapper for working with PDF writers (currently PDFjet)</description>
 
 	<licenses>
@@ -23,9 +23,9 @@
 	</licenses>
 
 	<scm>
-		<url>https://github.com/mhschmieder/jpdfwriter</url>
-		<connection>scm:git:git://github.com/mhschmieder/jpdfwriter.git</connection>
-		<developerConnection>scm:git:git@github.com:mhschmieder/jpdfwriter.git</developerConnection>
+		<url>https://github.com/mhschmieder/jpdfexport</url>
+		<connection>scm:git:git://github.com/mhschmieder/jpdfexport.git</connection>
+		<developerConnection>scm:git:git@github.com:mhschmieder/jpdfexport.git</developerConnection>
 	</scm>
 
 	<developers>

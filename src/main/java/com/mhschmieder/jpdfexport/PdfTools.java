@@ -21,14 +21,14 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  *
- * This file is part of the jpdfwriter Library
+ * This file is part of the jpdfexport Library
  *
- * You should have received a copy of the MIT License along with the jpdfwriter
+ * You should have received a copy of the MIT License along with the jpdfexport
  * Library. If not, see <https://opensource.org/licenses/MIT>.
  *
- * Project: https://github.com/mhschmieder/jpdfwriter
+ * Project: https://github.com/mhschmieder/jpdfexport
  */
-package com.mhschmieder.jpdfwriter;
+package com.mhschmieder.jpdfexport;
 
 import com.mhschmieder.jcommons.branding.BrandingUtilities;
 import com.mhschmieder.jcommons.branding.ProductBranding;
@@ -74,12 +74,12 @@ import java.util.Locale;
  *  the TextFrame class. THE OUTPUT HAS NOT YET BEEN TESTED, as my GUI app is
  *  not currently in a fully buildable state.
  * <p>
- * NOTE: The recent v7.06 evaluation version of PDFjet now includes TextColumn
+ * NOTE: The recent v7.06 evaluation version of PDFjet now includes TextColumn,
  *  so I have rewritten that code again using the API docs but haven't had an
  *  application context to test it in yet. I also have found some recent PDF
  *  libraries that might serve as alternatives, and iTextPDF is now free too.
  *  <p>
- * NOTE: Unfortunately, the actual JAR supplied does not match the API doccs so
+ * NOTE: Unfortunately, the actual JAR supplied does not match the API docs so
  *  the evaluation copy may still be v5.75, which doesn't include TextColumn.
  * <p>
  * TODO: Consider switching to Apache PdfBox in conjunction with an add-on
@@ -583,7 +583,7 @@ public final class PdfTools {
                                                    final boolean landscapeMode ) {
         // First calculate the total table width, expressed in pixels.
         // TODO: Take advantage of new Java 8 functional programming features.
-        float tableWidthPixels = 0f;
+        float tableWidthPixels = 0.0f;
         if ( columnWidthsInPixels != null ) {
             for ( final int columnWidth : columnWidthsInPixels ) {
                 tableWidthPixels += columnWidth;
@@ -596,11 +596,10 @@ public final class PdfTools {
         final float pageWidth = landscapeMode
             ? LANDSCAPE_PAGE_LAYOUT_WIDTH
             : PORTRAIT_PAGE_LAYOUT_WIDTH;
-        final float columnWidthScaleFactor = ( tableWidthPixels > 0f )
-            ? pageWidth / tableWidthPixels
-            : 1f;
 
-        return columnWidthScaleFactor;
+        return ( tableWidthPixels > 0.0f )
+            ? pageWidth / tableWidthPixels
+            : 1.0f;
     }
 
     // This is the main method to get a PDF document from PDFjet.
@@ -619,9 +618,8 @@ public final class PdfTools {
         // Note that PDFjet uses the author to set the creator field.
         final String reportAuthor = designer;
 
-        final PDF document = getDocument( outputStream, reportTitle, reportSubject, reportAuthor );
-
-        return document;
+        return getDocument(
+                outputStream, reportTitle, reportSubject, reportAuthor );
     }
 
     // This is the main method to get a PDF document from PDFjet.
@@ -889,13 +887,12 @@ public final class PdfTools {
                                                                                     information );
 
         // Write the table to as many pages as are required to fit.
-        final Point point = writeInformationTable( document,
-                                                   page,
-                                                   initialPoint,
-                                                   borderlessTableFonts,
-                                                   informationTableData );
-
-        return point;
+        return writeInformationTable(
+                document,
+                page,
+                initialPoint,
+                borderlessTableFonts,
+                informationTableData );
     }
 
     // Generic method to write a borderless single-column Information Table.

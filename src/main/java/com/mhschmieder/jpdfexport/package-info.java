@@ -21,12 +21,12 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  *
- * This file is part of the jpdfwriter Library.
+ * This file is part of the jpdfexport Library.
  *
- * You should have received a copy of the MIT License along with the jpdfwriter
+ * You should have received a copy of the MIT License along with the jpdfexport
  * Library. If not, see <https://opensource.org/licenses/MIT>.
  *
- * Project: https://github.com/mhschmieder/jpdfwriter
+ * Project: https://github.com/mhschmieder/jpdfexport
  */
 /**
  * This package contains utilities and helper methods related to producing
@@ -36,4 +36,4 @@
  *
  * @author Mark Schmieder
  */
-package com.mhschmieder.jpdfwriter;
+package com.mhschmieder.jpdfexport;
